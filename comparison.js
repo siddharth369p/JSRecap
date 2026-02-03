@@ -9,4 +9,7 @@ console.log(null>=0);
 console.log(undefined>0);
 console.log(undefined==0);
 console.log(undefined>=0);
+ 
+ 
+
 //undefined always give a false value
