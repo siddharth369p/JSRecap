@@ -1,4 +1,5 @@
 const symb=Symbol("key")
+//object literals
 const jsobj={
     name:"jai",
     age:22,
