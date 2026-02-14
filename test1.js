@@ -11,20 +11,20 @@ let row=jai.map((je)=>"hellow"+je)
 
 
 
-// const handleSubmit = async () => {
-//   const res = await fetch("http://localhost:5000/api/contact", {
-//     method: "POST",
-//     headers: {
-//       "Content-Type": "application/json"
-//     },
-//     body: JSON.stringify({
-//       name: "Siddharth",
-//       email: "sid@gmail.com",
-//       message: "Hello"
-//     })
-//   });
+const handleSubmit = async () => {
+  const res = await fetch("http://localhost:5000/api/contact", {
+    method: "POST",
+    headers: {
+      "Content-Type": "application/json"
+    },
+    body: JSON.stringify({
+      name: "Siddharth",
+      email: "sid@gmail.com",
+      message: "Hello"
+    })
+  });
 
-//   const data = await res.json();
+  const data = await res.json();
 
-//   alert("Message sent successfully!");
-// };
+  alert("Message sent successfully!");
+};
